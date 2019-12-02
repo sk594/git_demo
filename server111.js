@@ -34,15 +34,6 @@ app.post('/api/photo',function(req,res){
         res.end("File is uploaded");
     })});
 
-
-    // app.post('/api/photo',function(req,res){
-    //   upload(req,res,function(err) {
-    //       if(err) {
-    //           return res.end("Error uploading file.");
-    //       }
-    //       res.end("File is uploaded");
-    //   })});
-
 // app.get("/data", (req, res) => {
 //   var data = "SELECT * FROM risk_Record";
 //   con.query(data, function(err, result){
